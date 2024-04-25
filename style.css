@@ -159,7 +159,7 @@ img, svg {
 }
 
 .ui-component-cta {
-  flex-direction: column;
+  flex-direction: row;
   row-gap: var(--ui-gap-cta);
   margin-bottom: 1rem;
 }
@@ -371,11 +371,13 @@ div label[for=ui-component-toggle__yearly] {
 
 .ui-section-hero__layout {
   row-gap: var(--ui-gap-hero);
+
 }
 
 .ui-section-customer__layout {
   flex-direction: column;
   row-gap: var(--ui-gap-customer);
+  
 }
 
 .ui-section-customer--logo {
@@ -803,11 +805,21 @@ ui-layout-gridui-section-testimonial
   font-size: 1.8rem;
 }
 
+.ui-section-hero--img {
+  border-radius: 0.5rem;
+  max-height: 3rem;
+  
+}
+
 .ui-section-hero--border{
 
   border-radius: 33% 67% 93% 7% / 13% 58% 42% 87% ;
   background: rgb(2,0,36);
   background: linear-gradient(8deg, rgba(2,0,36,0.19371498599439774) 3%, rgba(22,255,0,0.2945553221288515) 91%);
+}
+
+.ui-section-hero--title{
+  color: var(--ui-color-n-700);
 }
 
 .ui-section-hero--label{
